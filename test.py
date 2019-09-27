@@ -1,7 +1,7 @@
 import anvil.server
 import gkeepapi
 
-anvil.serever.connect("QJVRB4LEFOFXTTI4QK3DVVXR-R4IKANFI5NQKZ2RD")
+anvil.server.connect("QJVRB4LEFOFXTTI4QK3DVVXR-R4IKANFI5NQKZ2RD")
 
 @anvil.server.callable
 def test_call():
