@@ -13,4 +13,8 @@ def test_call():
     note.color = gkeepapi.node.ColorValue.Red
     keep.sync()
 	
+@anvil.server.callable
+def say_hello(name):
+	print("Hello from your own machine, %s!" % name)
+	
 anvil.server.wait_forever()
