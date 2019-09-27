@@ -16,5 +16,6 @@ def test_call():
 @anvil.server.callable
 def say_hello(name):
 	print("Hello from your own machine, %s!" % name)
-	
+
+print("Something good is happening")
 anvil.server.wait_forever()
