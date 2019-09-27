@@ -12,3 +12,5 @@ def test_call():
     note.pinned = True
     note.color = gkeepapi.node.ColorValue.Red
     keep.sync()
+	
+anvil.server.wait_forever()
